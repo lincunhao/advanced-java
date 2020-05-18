@@ -2,7 +2,7 @@ package com.lch;
 
 public class Singleton {
     private Singleton() {
-
+	System.out.prinln("Well done");
     }
 
     private static volatile Singleton singleton = null;
